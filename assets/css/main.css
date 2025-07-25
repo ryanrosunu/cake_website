@@ -60,6 +60,10 @@ p {
     margin-right: 50px;
 }
 
+img {
+    border-radius: 10px;
+}
+
 p.gallery {
     text-align: center;
 }
