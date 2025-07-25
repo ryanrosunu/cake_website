@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About Page</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- For responsiveness -->
+    </head>
+
+
+    <body>
+        <header>
+            <img id="imglogo" src="assets/images/logo.jpg" alt="logo image"> <!--alt is for screen readers-->
+            <nav>
+                <a class="navlink" href="homepage.html" onmouseover="changeLinkColor('navlink', 0)" onmouseout="backToNormal('navlink', 0)">Home</a> <!--anchor element is used for links-->
+                <a class="navlink" href="gallerypage.html" onmouseover="changeLinkColor('navlink', 1)" onmouseout="backToNormal('navlink', 1)">Gallery</a>
+                <a class="navlink" href="orderpage.html" onmouseover="changeLinkColor('navlink', 2)" onmouseout="backToNormal('navlink', 2)">Order</a>
+                <a class="navlink" href="aboutpage.html" onmouseover="changeLinkColor('navlink', 3)" onmouseout="backToNormal('navlink', 3)">About</a>
+            </nav>
+        </header>
+
+        <h1>
+            About Us
+        </h1>
+
+        <main>
+            <section>
+                <img id="imgright" src="assets/images/who_are_we.jpg" alt="bakery owners image">
+                <h2>
+                    Who are we?
+                </h2>
+                <p>
+                    We are a local home style bakery committed to making quality cakes and desserts! Our owner Emily started her journey baking at home when she was just a 
+                    teenager and now she opened her own designated location to serve everyone in and out of the neighborhood!
+                </p>
+            </section>
+            <section>
+                <img id="imgright" src="assets/images/where_are_we.jpg" alt="dessert in front of location image">
+                <h2>
+                    Where are we?
+               </h2>
+               <div id="directionsdiv">
+                    <p>
+                        We are located in Evanston, Illinois just off of Foster Street. You are welcome to stop by anytime to check out our in stock cakes and designs!
+                    </p>
+                    <a href="https://www.google.com/maps/" class="button" onmouseover="changeButtonColor(0)" onmouseout="backToNormal('button', 0)">Directions</a>
+               </div>
+
+            </section>
+            <section>
+                <h2>
+                    Contacts
+                </h2>
+                
+                <div style="display: flex; justify-content: center;">
+                    <a href="mailto:name@email.com" class="button" onmouseover="changeButtonColor(1)" onmouseout="backToNormal('button', 1)">Email</a>
+                    <a href="https://www.instagram.com/" class="button" onmouseover="changeButtonColor(2)" onmouseout="backToNormal('button', 2)">Instagram</a>
+                    <a href="https://www.facebook.com/" class="button" onmouseover="changeButtonColor(3)" onmouseout="backToNormal('button', 3)">Facebook</a>
+                </div>
+                
+            </section>
+        </main>
+        <script type="text/javascript" src="assets/js/main.js"> </script>
+    </body>
+</html>

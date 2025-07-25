@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery Page</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- For responsiveness -->
+    </head>
+
+
+    <body>
+        <header>
+            <img id="imglogo" src="assets/images/logo.jpg" alt="logo image"> <!--alt is for screen readers-->
+            <nav>
+                <a class="navlink" href="homepage.html" onmouseover="changeLinkColor('navlink', 0)" onmouseout="backToNormal('navlink', 0)">Home</a> <!--anchor element is used for links-->
+                <a class="navlink" href="gallerypage.html" onmouseover="changeLinkColor('navlink', 1)" onmouseout="backToNormal('navlink', 1)">Gallery</a>
+                <a class="navlink" href="orderpage.html" onmouseover="changeLinkColor('navlink', 2)" onmouseout="backToNormal('navlink', 2)">Order</a>
+                <a class="navlink" href="aboutpage.html" onmouseover="changeLinkColor('navlink', 3)" onmouseout="backToNormal('navlink', 3)">About</a>
+            </nav>
+        </header>
+
+        <h1>
+            Gallery
+        </h1>
+
+        <nav id="navgallery">
+            <a class="navgallink" href="#Birthdays" onmouseover="changeLinkColor('navgallink', 0)" onmouseout="backToNormal('navgallink', 0)">Birthdays</a> 
+            <a class="navgallink" href="#Weddings" onmouseover="changeLinkColor('navgallink', 1)" onmouseout="backToNormal('navgallink', 1)">Weddings</a>
+            <a class="navgallink" href="#SpecialEvents" onmouseover="changeLinkColor('navgallink', 2)" onmouseout="backToNormal('navgallink', 2)">Special Events</a>
+            <a class="navgallink" href="#More" onmouseover="changeLinkColor('navgallink', 3)" onmouseout="backToNormal('navgallink', 3)">More</a>
+        </nav>
+
+        <main>
+            <section>
+                <h2>
+                    <a class="gallery" name="Birthdays">Birthdays</a>
+                    <a href="orderpage.html" class="button" onmouseover="changeButtonColor(0)" onmouseout="backToNormal('button', 0)">Order</a>
+                </h2>
+                <div id="gallerygroup">
+                    <img id="imggallery" src="assets/images/birthday_cake_1.jpg" alt="roses theme birthday cake image">
+                    <img id="imggallery" src="assets/images/birthday_cake_3.jpg" alt="sprinkles theme birthday cake image">
+                    <img id="imggallery" src="assets/images/birthday_cake_2.jpg" alt="space theme birthday cake image">
+                </div>
+                <p class="gallery">
+                    Check out our different birthday cake designs! Place an order today by clicking the "Order" button!
+                </p>    
+            </section>
+            <section>
+                <h2>
+                    <a class="gallery" name="Weddings">Weddings</a>
+                    <a href="orderpage.html" class="button" onmouseover="changeButtonColor(1)" onmouseout="backToNormal('button', 1)">Order</a>
+                </h2>
+                <div id="gallerygroup">
+                    <img id="imggallery" src="assets/images/wedding_cake_2.jpg" alt="ruffles wedding cake image">
+                    <img id="imggallery" src="assets/images/wedding_cake_1.jpg" alt="flower theme wedding cake image">
+                    <img id="imggallery" src="assets/images/wedding_cake_3.jpg" alt="white rose theme wedding cake image">
+                </div>
+                <p class="gallery">
+                    Check out our different wedding cake designs! Place an order today by clicking the "Order" button!
+                </p>   
+            </section>
+            <section>
+                <h2>
+                    <a class="gallery" name="SpecialEvents">Specials Events</a>
+                    <a href="orderpage.html" class="button" onmouseover="changeButtonColor(2)" onmouseout="backToNormal('button', 2)">Order</a>
+                </h2>
+                <div id="gallerygroup">
+                    <img id="imggallery" src="assets/images/special_event_cake_2.jpg" alt="fading blue special event cake image">
+                    <img id="imggallery" src="assets/images/special_event_cake_1.jpg" alt="50 year anniversary special event cake image">
+                    <img id="imggallery" src="assets/images/special_event_cake_3.jpg" alt="orange and blue special event cake image">
+                </div>
+                <p class="gallery">
+                    Check out our different special event cakes! Place an order today by clicking the "Order" button!
+                </p>   
+            </section>
+            <section>
+                <h2>
+                    <a class="gallery" name="More">More</a>
+                    <a href="orderpage.html" class="button" onmouseover="changeButtonColor(3)" onmouseout="backToNormal('button', 3)">Order</a>
+                </h2>
+                <div id="gallerygroup">
+                    <img id="imggallery" src="assets/images/more_dessert_1.jpg" alt="cookie monster theme cupcakes image">
+                    <img id="imggallery" src="assets/images/more_dessert_2.jpg" alt="pavlova dessert image">
+                    <img id="imggallery" src="assets/images/more_dessert_3.jpg" alt="chocolate and vanilla cake pops image">
+                </div>
+                <p class="gallery">
+                    We also make cake pops, cupcakes, and pavlova! Place an order today by clicking the "Order" button!
+                </p>   
+            </section>
+        </main>
+        <script type="text/javascript" src="assets/js/main.js"> </script>
+    </body>
+</html>

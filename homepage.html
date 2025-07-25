@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- For responsiveness -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    </head>
+
+
+    <body>  
+        <header>
+            <img id="imglogo" src="assets/images/logo.jpg" alt="logo image"> <!--alt is for screen readers-->
+            <nav class="navlinks">
+                <a class="navlink" href="homepage.html" onmouseover="changeLinkColor('navlink', 0)" onmouseout="backToNormal('navlink', 0)">Home</a> <!--anchor element is used for links-->
+                <a class="navlink" href="gallerypage.html" onmouseover="changeLinkColor('navlink', 1)" onmouseout="backToNormal('navlink', 1)">Gallery</a>
+                <a class="navlink" href="orderpage.html" onmouseover="changeLinkColor('navlink', 2)" onmouseout="backToNormal('navlink', 2)">Order</a>
+                <a class="navlink" href="aboutpage.html" onmouseover="changeLinkColor('navlink', 3)" onmouseout="backToNormal('navlink', 3)">About</a>
+            </nav>
+        </header>
+
+        <h1>
+            Home
+        </h1>
+
+        <main>
+            <section>
+                <img id="imgright" src="assets/images/welcome.jpg" alt="welcome cake image">
+                <h2>
+                    Welcome!
+                </h2>
+                <p>
+                    Our bakery specializes in beautifully crafted cakes for every occasion. From birthdays to weddings, our team uses the finest ingredients 
+                    to deliver sweet memories with every slice. Explore our gallery or place a custom order today.
+                </p>
+            </section>
+            <section>
+                <img id="imgleft" src="assets/images/open_announcement.jpg" alt="now open announcement image">
+                <h2>
+                    Announcements/Events
+                </h2>
+                <p>
+                    We are now open for holiday pre-orders! Don't miss our seasonal specials and weekend decorating workshops. Follow us on Instagram for daily
+                    updates, behind-the-scenes baking, and exclusive online coupons.
+                </p>
+            </section>
+        </main>
+        <script type="text/javascript" src="assets/js/main.js"> </script>
+    </body>
+</html>

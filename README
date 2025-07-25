@@ -1,0 +1,15 @@
+**Iteractive Features**
+1. Changing Link Color
+I chose to implement an interactive feature that changes the text color of of each individual navigation link button to blue 
+when hovered over with a mouse and reverts back to normal when no longer hovered over. This applies to the main navigation 
+links as well as the gallery navigation links.
+
+2. Changing Button Color
+I chose to implement an interactive feature that changes the background color of each individual button to blue when hovered 
+over with a mouse and reverts back to normal when no longer hovered over. This applies to all buttons on the website.
+
+3. Confirm Order Interaction
+I chose to implement an interactive feature to the "Place Order" button on the order page that uses a confirm popup. When a
+user clicks the "Place Order" button, they will be prompted to confirm their submission of the order. If "OK" is clicked,
+the user is redirected to the thank you page, otherwise, the user remains on the order page where they can continue editing
+their order. If javascript is disabled, clicking "Place Order" will automatically send the user to the thank you page.
